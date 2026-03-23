@@ -61,11 +61,20 @@ const LoadingOverlay = ({ loadedPercentage }) => (
 
 const CertificateCard = ({ cert, onImageLoad }) => {
   const [isLoaded, setIsLoaded] = React.useState(false);
+  const imgRef = React.useRef(null);
 
   const handleLoad = () => {
-    setIsLoaded(true);
-    onImageLoad();
+    if (!isLoaded) {
+      setIsLoaded(true);
+      onImageLoad();
+    }
   };
+
+  React.useEffect(() => {
+    if (imgRef.current && imgRef.current.complete) {
+      handleLoad();
+    }
+  }, []);
 
   return (
     <motion.div
@@ -98,6 +107,7 @@ const CertificateCard = ({ cert, onImageLoad }) => {
           }} />
         )}
         <img 
+          ref={imgRef}
           src={cert.image} 
           alt={cert.title} 
           loading="lazy"
