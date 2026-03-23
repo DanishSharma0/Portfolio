@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,6 +12,7 @@ import CertificatesPage from './components/CertificatesPage';
 import FloatingTech from './components/FloatingTech';
 import ClickEffect from './components/ClickEffect';
 import CustomCursor from './components/CustomCursor';
+import LoadingScreen from './components/LoadingScreen';
 
 function AppContent() {
   const location = useLocation();
@@ -60,10 +61,21 @@ function AppContent() {
 }
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    document.body.style.overflow = loading ? 'hidden' : '';
+  }, [loading]);
+
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <>
+      {loading && (
+        <LoadingScreen onComplete={() => setLoading(false)} />
+      )}
+      <Router>
+        <AppContent />
+      </Router>
+    </>
   );
 }
 
