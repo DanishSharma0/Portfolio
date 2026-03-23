@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Large original certificate images (only keep optimized .webp versions)
+public/certificates/*.jpg
+public/certificates_backup/
+
+# Dev utilities
+compress_certs.cjs
+compress_log.txt
+certificates/
