@@ -3,35 +3,35 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      type: "Professional Training",
-      title: "CipherSchools",
-      date: "Certification Hub",
-      description: "Successfully completed intensive certifications in Data Structures & Algorithms (DSA) and Object-Oriented Programming (OOPS), mastering industrial coding standards and complex problem-solving."
+      type: "Design Experience",
+      title: "UX/UI & Product Designer",
+      date: "Academic & Personal Projects",
+      description: "Designing user-centered web and mobile interfaces using Figma with a focus on usability, accessibility, and visual consistency. Created user flows, wireframes, interactive prototypes, and high-fidelity designs. Conducted competitor analysis and user research to identify pain points and transform user needs into intuitive digital solutions. Built and maintained reusable design systems, leveraging AI-powered tools for rapid design exploration and collaborating with developers for responsive implementation."
     },
     {
-      type: "Academic Foundation",
+      type: "Education",
       title: "Lovely Professional University (LPU)",
-      date: "B.Tech Journey",
-      description: "Pursuing a B.Tech with a specialization in Full Stack Development, while maintaining an impressive CGPA of <span class='text-gradient' style='font-weight: 700;'>7.39</span> and a strong focus on algorithmic complexity."
+      date: "August 2023 – Present",
+      description: "Pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering, maintaining a CGPA of <span class='text-gradient' style='font-weight: 700;'>7.39/10</span> while blending software engineering and human-computer interaction principles."
     },
     {
-      type: "Intermediate Education",
+      type: "Education",
       title: "Govt. Mixed Hr. Sec. School",
-      date: "Senior Secondary",
-      description: "Achieved a commendable <span class='text-gradient' style='font-weight: 700;'>77%</span> in Senior Secondary education, demonstrating exceptional mastery in technical sciences and mathematical theory."
+      date: "April 2020 – March 2022",
+      description: "Completed Senior Secondary education with a score of <span class='text-gradient' style='font-weight: 700;'>77%</span>, developing strong analytical thinking and quantitative reasoning foundations."
     },
     {
-      type: "Matriculation",
+      type: "Education",
       title: "Activity Public Hr. Sec. School",
-      date: "High School Milestone",
-      description: "Successfully cleared High School with a distinguished score of <span class='text-gradient' style='font-weight: 700;'>79.2%</span>, marking the inception of a strong technical academic trajectory."
+      date: "April 2019 – March 2020",
+      description: "Completed Matriculation with a distinguished score of <span class='text-gradient' style='font-weight: 700;'>79.2%</span>, demonstrating early academic excellence and a passion for technology."
     }
   ];
 
   return (
     <section id="experience" style={{ position: 'relative', background: 'var(--bg-secondary)' }}>
       <div className="container">
-        <h2 className="section-title reveal">Evolutionary <span className="text-gradient">Timeline</span></h2>
+        <h2 className="section-title reveal">Professional <span className="text-gradient">Journey</span></h2>
         
         <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative' }}>
           {/* Vertical Timeline Divider */}

@@ -39,14 +39,14 @@ const Footer = () => {
           textAlign: 'center',
           letterSpacing: '0.02em'
         }}>
-          Architecting refined digital experiences with precision and technical excellence. Available for strategic collaborations.
+          Crafting intuitive user experiences and digital products with design precision and technical depth. Available for strategic collaborations.
         </p>
 
         <div style={{ display: 'flex', gap: '40px', marginBottom: '60px' }}>
           {[
             { label: 'LinkedIn', url: 'https://www.linkedin.com/in/danishsharma0/' },
             { label: 'GitHub', url: 'https://github.com/DanishSharma0' },
-            { label: 'Email', url: 'mailto:hunter7501243@gmail.com' }
+            { label: 'Email', url: 'mailto:danish7501243@gmail.com' }
           ].map((social, index) => (
             <a
               key={index}

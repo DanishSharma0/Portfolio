@@ -189,91 +189,91 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "T-MAN",
-      description: "A comprehensive project management powerhouse designed for seamless team synchronization and high-velocity workflow orchestration.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "Redux"],
-      link: "#",
-      images: [
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234318.png", 
-          label: "Strategic Entry", 
-          description: "An immersive landing experience that invites users into a world of peak productivity, showcasing the platform's ability to boost team synergy." 
-        },
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234225.png", 
-          label: "Analytical Nerve Center", 
-          description: "A high-fidelity dashboard presenting real-time team snapshots, performer rankings, and task distribution analytics." 
-        },
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234135.png", 
-          label: "Execution Engine", 
-          description: "A precision-engineered task management interface allowing for absolute control over project lifecycles." 
-        },
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234101.png", 
-          label: "Human Capital View", 
-          description: "A dedicated team oversight panel tracking assignee progress and facilitating seamless resource allocation." 
-        },
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234033.png", 
-          label: "Immutable Registry", 
-          description: "A comprehensive Activity Log providing full transparency through a real-time audit trail of every platform action." 
-        },
-        { 
-          url: "/projects/t-man/Screenshot 2026-03-22 234111.png", 
-          label: "Workstream Insights", 
-          description: "Detailed view of project workstreams, ensuring every task is perfectly aligned with organizational goals." 
-        }
-      ]
-    },
-    {
-      title: "AllaboutBhaderwah",
-      description: "A tourism and information portal dedicated to showcasing the beauty and culture of Bhaderwah.",
-      tech: ["HTML", "CSS", "JavaScript", "PHP"],
+      title: "AllAboutTravel",
+      description: "A travel booking marketplace designed to simplify travel scheduling and accommodation discovery. Conducted competitor analysis, structured information architecture, and created high-fidelity interactive prototypes focused on intuitive user flows and AI-assisted recommendations.",
+      tech: ["Figma", "FigJam", "React", "Tailwind CSS"],
       link: "#",
       images: [
         {
           url: "/projects/Allaboutbhaderwah/Screenshot 2026-03-23 020236.png",
-          label: "Gateway to Paradise",
-          description: "An evocative landing experience featuring the majestic landscapes of Bhaderwah, setting the tone for an immersive cultural and natural exploration."
+          label: "Marketplace Entry & Discovery",
+          description: "A search-centric and visually engaging entry page designed to streamline search criteria and increase immediate user engagement."
         },
         {
           url: "/projects/Allaboutbhaderwah/Screenshot 2026-03-23 020317.png",
-          label: "Service Ecosystem",
-          description: "A comprehensive overview of curated travel services, from exploring hidden meadows to seamless transportation and premium hospitality management."
+          label: "Travel Service Ecosystem",
+          description: "A clear overview of available bookings, curated local excursions, and service provider details mapped to logical user patterns."
         },
         {
           url: "/projects/Allaboutbhaderwah/Screenshot 2026-03-23 020347.png",
-          label: "Onboarding Flow — Sign Up",
-          description: "A refined user registration interface integrated with lush, nature-inspired aesthetics to maintain a consistent thematic bridge with the destination."
+          label: "User Onboarding & Registration",
+          description: "A streamlined sign-up experience integrated with cohesive, destination-oriented visual branding to lower drop-off rates."
         },
         {
           url: "/projects/Allaboutbhaderwah/Screenshot 2026-03-23 020401.png",
-          label: "Authentication Portal",
-          description: "A minimalist and elegant login experience, prioritizing user flow while keeping the focus on the serene environment of Bhaderwah."
+          label: "Authentication Flow",
+          description: "A secure, minimal login design optimized for accessibility, prioritizing quick access to saved bookings and profiles."
+        }
+      ]
+    },
+    {
+      title: "T-MAN",
+      description: "A project management platform redesigned for peak productivity and collaboration. Structured information architecture, created dashboard layouts, and developed a reusable UI component library to reduce workflow complexity.",
+      tech: ["Figma", "React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+      link: "#",
+      images: [
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234318.png", 
+          label: "Task Creation Workflow", 
+          description: "A user-centric task creation flow mapped to minimize clicks and maximize speed, reducing cognitive friction during high-frequency use." 
+        },
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234225.png", 
+          label: "Productivity Dashboard", 
+          description: "A high-fidelity project dashboard showcasing key progress metrics, task statuses, and team activity trends at a glance." 
+        },
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234135.png", 
+          label: "Interactive Task Boards", 
+          description: "An intuitive drag-and-drop Kanban interface utilizing clear hover cues and color coding for seamless progress tracking." 
+        },
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234101.png", 
+          label: "Collaborator Management", 
+          description: "A collaborative panel designed to simplify team member assignments, permission settings, and communication channels." 
+        },
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234033.png", 
+          label: "Transparent Activity Log", 
+          description: "An immutable history feed displaying real-time task modifications to maintain transparency and alignment across cross-functional teams." 
+        },
+        { 
+          url: "/projects/t-man/Screenshot 2026-03-22 234111.png", 
+          label: "Responsive Design System", 
+          description: "Adaptable layout system ensuring all interactive elements, sidebars, and analytical cards scale fluidly for desktop, tablet, and mobile screens." 
         }
       ]
     },
     {
       title: "HiStudy",
-      description: "An educational platform designed to streamline student learning and resource sharing.",
-      tech: ["HTML", "CSS", "JavaScript", "PHP", "Tailwind CSS"],
+      description: "An educational platform designed to enhance student engagement and access to learning resources. Designed personalized study dashboards, progress trackers, and conversational AI-assisted interfaces.",
+      tech: ["Figma", "HTML", "CSS", "JavaScript", "PHP", "MySQL"],
       link: "#",
       images: [
         {
           url: "/projects/Histudy/home_page_1774212209662.png",
-          label: "Nexus Hub",
-          description: "The primary point of entry, offering a clean and intuitive navigation experience across the entire learning ecosystem."
+          label: "Portal Navigation Hub",
+          description: "A modern, accessible landing layout focused on learning paths, course selections, and simple navigation options."
         },
         {
           url: "/projects/Histudy/ai_genie_page_1774212254506.png",
-          label: "AI Learning Oracle",
-          description: "An advanced AI-powered assistant designed to facilitate instant knowledge retrieval and intelligent academic guidance."
+          label: "AI Learning Interface",
+          description: "An interactive conversational panel designed to support student learning with instant, contextual guidance and answers."
         },
         {
           url: "/projects/Histudy/learnease_dashboard_page_1774212281603.png",
-          label: "Academic Command Center",
-          description: "A centralized dashboard providing students with real-time insight into their academic progress and easy access to core learning modules."
+          label: "Progress Tracker Dashboard",
+          description: "A student dashboard using clean analytics visualizations to help users monitor performance, quiz scores, and academic goals."
         }
       ]
     },

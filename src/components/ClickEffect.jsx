@@ -44,11 +44,11 @@ const ClickEffect = () => {
               <motion.div
                 key={i}
                 initial={{ x: click.x, y: click.y, scale: 0, opacity: 1 }}
-                animate={{ 
-                  x: click.x + (Math.random() - 0.5) * 100, 
-                  y: click.y + (Math.random() - 0.5) * 100, 
+                animate={{
+                  x: click.x + (Math.random() - 0.5) * 100,
+                  y: click.y + (Math.random() - 0.5) * 100,
                   scale: Math.random() * 2,
-                  opacity: 0 
+                  opacity: 0
                 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 style={{

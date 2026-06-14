@@ -4,20 +4,24 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Core Languages",
-      skills: ["C++", "JavaScript", "HTML5", "CSS3", "SQL", "Java", "Python"]
+      title: "Product Design",
+      skills: ["Product Thinking", "User-Centered Design", "Wireframing", "Prototyping", "Design Systems", "Responsive Design", "User Flows", "Information Architecture", "Interaction Design"]
     },
     {
-      title: "Architecture & Frameworks",
-      skills: ["React.js", "Node.js", "Express.js", "REST APIs", "TailwindCSS", "Prisma"]
+      title: "UX Research",
+      skills: ["User Research", "Competitor Analysis", "Persona Creation", "User Journey Mapping", "Usability Testing", "Heuristic Evaluation"]
     },
     {
-      title: "Tools & Ecosystem",
-      skills: ["Git", "GitHub", "MongoDB", "Postman", "Vite", "Docker", "VS Code"]
+      title: "Tools & Technologies",
+      skills: ["Figma", "FigJam", "Canva", "ChatGPT", "Gemini AI"]
     },
     {
-      title: "Strategic Mindset",
-      skills: ["System Design", "Agile", "Team Leadership", "Problem Solving", "UX/UI Focus"]
+      title: "Front-end Knowledge",
+      skills: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"]
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Problem Solving", "Communication", "Collaboration", "Presentation Skills", "Stakeholder Management", "Critical Thinking"]
     }
   ];
 
@@ -43,7 +47,7 @@ const Skills = () => {
     <section id="skills" style={{ position: 'relative', background: 'var(--bg-primary)' }}>
       <div className="container">
         <h2 className="reveal section-title">
-          Technical <span className="text-gradient">Mastery</span>
+          Design & Product <span className="text-gradient">Mastery</span>
         </h2>
         
         <motion.div 

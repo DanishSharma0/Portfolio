@@ -18,8 +18,8 @@ const CustomCursor = () => {
 
     const handleMouseOver = (e) => {
       if (
-        e.target.tagName === 'A' || 
-        e.target.tagName === 'BUTTON' || 
+        e.target.tagName === 'A' ||
+        e.target.tagName === 'BUTTON' ||
         e.target.closest('.glass-panel') ||
         e.target.closest('.skill-tag')
       ) {
@@ -41,7 +41,7 @@ const CustomCursor = () => {
   return (
     <>
       {/* Main Dot */}
-      <div 
+      <div
         style={{
           position: 'fixed',
           left: 0,

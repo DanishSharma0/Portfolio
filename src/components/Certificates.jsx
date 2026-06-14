@@ -56,10 +56,10 @@ const Certificates = () => {
           >
             <h3 style={{ fontSize: '2.5rem', marginBottom: '25px', color: 'var(--text-primary)' }}>Constant <span className="text-gradient">Evolution</span></h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', lineHeight: '1.9', marginBottom: '35px' }}>
-              True mastery is a perpetual journey. I am relentlessly expanding my expertise across Artificial Intelligence, System Architecture, and Advanced Software Engineering.
+              True mastery is a perpetual journey. I am relentlessly expanding my expertise across User Experience design, product strategy, and interactive systems.
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
-              {['Generative AI', 'Full Stack', 'Networking', 'Algorithms'].map((skill, index) => (
+              {['Product Design', 'UX Research', 'Design Systems', 'Interaction Design'].map((skill, index) => (
                 <div key={index} style={{ display: 'flex', alignItems: 'center', gap: '12px', color: 'var(--accent-gold)', fontWeight: 500, fontSize: '0.9rem' }}>
                   <span style={{ width: '8px', height: '8px', background: 'var(--accent-gold)', borderRadius: '50%' }}></span>
                   {skill}
